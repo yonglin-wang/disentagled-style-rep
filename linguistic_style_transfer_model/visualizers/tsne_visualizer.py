@@ -24,7 +24,7 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
                     y=coordinates[markers[i]:markers[i + 1], 1],
                     marker=plot_markers[i % len(plot_markers)],
                     c=colors[i % len(colors)],
-                    label=label_names[i], alpha=0.75)
+                    label=label_names[str(i)], alpha=0.75)
 
     plt.legend(loc='upper right', fontsize='x-large')
     plt.axis('off')

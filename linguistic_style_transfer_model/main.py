@@ -36,7 +36,11 @@ def get_data(options):
 def execute_post_inference_operations(
         actual_word_lists, generated_sequences, final_sequence_lengths, inverse_word_index,
         timestamped_file_suffix, label):
-    logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
+    try:
+        logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
+    except ValueError:
+        print("{} label has no sequences!".format(label))
+        return
 
     # first trims the generates sentences down to the length the decoder returns
     # then trim any <eos> token

@@ -1,5 +1,5 @@
 from nltk.corpus import stopwords
-from sklearn.feature_extraction import stop_words
+# from sklearn.feature_extraction import stop_words
 from spacy.lang.en.stop_words import STOP_WORDS as spacy_stopwords
 
 from linguistic_style_transfer_model.config import global_config
@@ -16,11 +16,11 @@ def get_sentiment_words():
 
 def get_stopwords():
     nltk_stopwords = set(stopwords.words('english'))
-    sklearn_stopwords = stop_words.ENGLISH_STOP_WORDS
+    # sklearn_stopwords = stop_words.ENGLISH_STOP_WORDS
 
     all_stopwords = set()
     all_stopwords |= spacy_stopwords
     all_stopwords |= nltk_stopwords
-    all_stopwords |= sklearn_stopwords
+    # all_stopwords |= sklearn_stopwords
 
     return all_stopwords

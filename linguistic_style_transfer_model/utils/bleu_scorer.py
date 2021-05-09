@@ -4,6 +4,7 @@ from linguistic_style_transfer_model.config import global_config
 
 
 def get_corpus_bleu_scores(actual_word_lists, generated_word_lists):
+    # dict of {<int: ngram>: <float: bleu>}
     bleu_scores = dict()
 
     for i in range(len(global_config.bleu_score_weights)):
