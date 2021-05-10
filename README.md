@@ -1,16 +1,16 @@
 # Disentangled Style Representation 
 
-This project empirically examine the effectiveness of a proposed style transfer system on the task of formality transfer. 
+This project is for COSI 137B, Information Extraction, where we empirically examine the effectiveness of a proposed style transfer system on the task of formality transfer. 
 
 Group members: Yonglin Wang, Xiaoyu Lu
 
-Relevant Documents:
+## Relevant Documents
 
-[Annotated Bibliography](./docs/annotated_bib.pdf): Preliminary research before landing on our current choice of system.
+[Annotated Bibliography](./docs/annotated-bib.pdf): Preliminary research before landing on our current choice of system.
 
-[Project Proposal](./docs/ie-final-proposal.pdf): Proposed experiment details; our plans have adjusted slightly since. 
+[Project Proposal](./docs/project-proposal.pdf): Proposed experiment details; our plans have adjusted slightly since. 
 
-
+[Final Written Report](./docs/final-project-report.pdf): Final written report. 
 
 # Notes for Project
 
