@@ -1,6 +1,6 @@
 # Disentangled Style Representation 
 
-This project is for COSI 137B, Information Extraction, where we empirically examine the effectiveness of a proposed style transfer system on the task of formality transfer. 
+This repository is for the final project for COSI 137B, Information Extraction. In our project, we empirically examine the effectiveness of a previously proposed style transfer system ([John et al., 2018](https://arxiv.org/abs/1808.04339)) on the task of formality transfer. 
 
 Group members: Yonglin Wang, Xiaoyu Lu
 
@@ -10,11 +10,11 @@ Group members: Yonglin Wang, Xiaoyu Lu
 
 [Project Proposal](./docs/project-proposal.pdf): Proposed experiment details; our plans have adjusted slightly since. 
 
-[Final Written Report](./docs/final-project-report.pdf): Final written report. 
+[Final Written Report](./docs/final-project-report.pdf): Final written report containing the full description of methods and results. 
 
-# Notes for Project
+# Running Our Project
 
-Changes, Procedure, and Results from Yonglin. 
+Changes, Procedure, and Results from Yonglin. Note that ours is slightly different from what's described in the original repository. 
 
 ## Prerequisites in our experiments
 
