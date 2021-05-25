@@ -1,16 +1,20 @@
 # Disentangled Style Representation 
 
-This repository is for the final project for COSI 137B, Information Extraction. In our project, we empirically examine the effectiveness of a previously proposed style transfer system ([John et al., 2018](https://arxiv.org/abs/1808.04339)) on the task of formality transfer. 
+This repository is for the final project for COSI 137B, Information Extraction. In our project, we empirically examine the effectiveness of a previously proposed style transfer system ([John et al., 2018](https://arxiv.org/abs/1808.04339)) on the task of formality encoding.
+
+Note that this project only focuses on *formality encoding*. Therefore, the final paper does not discuss metrics for style transfer such as BLEU. Instead, the transfer performance is discussed in [the presentation of Yonglin's capstone project](https://github.com/yonglin-wang/formality-styler/blob/fe18cc13f261654cb711065c6089cb087feb8163/doc/project_presentation.pdf) (page 9). 
 
 Group members: Yonglin Wang, Xiaoyu Lu
 
 ## Relevant Documents
 
-[Annotated Bibliography](./docs/annotated-bib.pdf): Preliminary research before landing on our current choice of system.
+Listed in reverse chronological order...
+
+[Final Written Report](./docs/final-project-report.pdf): Final written report containing the full description of methods and results. 
 
 [Project Proposal](./docs/project-proposal.pdf): Proposed experiment details; our plans have adjusted slightly since. 
 
-[Final Written Report](./docs/final-project-report.pdf): Final written report containing the full description of methods and results. 
+[Annotated Bibliography](./docs/annotated-bib.pdf): Preliminary research before landing on our current choice of system.
 
 # Running Our Project
 
